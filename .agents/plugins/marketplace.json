@@ -1,0 +1,32 @@
+{
+  "name": "diluxone-plugins-ai",
+  "interface": {
+    "displayName": "DiluxOne Plugins AI"
+  },
+  "plugins": [
+    {
+      "name": "daw",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DiluxOne/dilux-agentic-workflow.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "diluxone-mermaid",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DiluxOne/diluxone-mermaid.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

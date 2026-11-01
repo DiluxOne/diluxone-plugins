@@ -1,23 +1,44 @@
 {
-  "name": "diluxone",
+  "name": "diluxone-plugins-ai",
   "owner": {
     "name": "DiluxOne",
-    "url": "https://github.com/diluxone"
+    "url": "https://github.com/DiluxOne"
   },
   "metadata": {
-    "description": "DiluxOne plugins for Claude Code."
+    "description": "DiluxOne's plugins for coding agents."
   },
   "plugins": [
+    {
+      "name": "daw",
+      "source": {
+        "source": "github",
+        "repo": "DiluxOne/dilux-agentic-workflow"
+      },
+      "description": "An agent-driven development pipeline: phases in order, gates enforced by hooks outside the model, auditors that did not write the code they review, and state that survives closing the session.",
+      "homepage": "https://github.com/DiluxOne/dilux-agentic-workflow",
+      "license": "Apache-2.0",
+      "keywords": [
+        "agentic",
+        "workflow",
+        "spec-driven",
+        "pipeline",
+        "orchestration"
+      ]
+    },
     {
       "name": "diluxone-mermaid",
       "source": {
         "source": "github",
-        "repo": "diluxone/diluxone-mermaid"
+        "repo": "DiluxOne/diluxone-mermaid"
       },
       "description": "Create, edit and validate mermaid diagrams that never break: lint, the real mermaid 10, 11 and 12 parser, render geometry and visual review.",
-      "homepage": "https://github.com/diluxone/diluxone-mermaid",
+      "homepage": "https://github.com/DiluxOne/diluxone-mermaid",
       "license": "MIT",
-      "keywords": ["mermaid", "diagrams", "validation"]
+      "keywords": [
+        "mermaid",
+        "diagrams",
+        "validation"
+      ]
     }
   ]
 }
